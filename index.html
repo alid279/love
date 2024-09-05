@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>:)</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>click tombolnya untuk melihat isinya😁</h1>
+        <button id="revealButton">Reveal</button>
+        <div id="heartContainer" class="hidden">
+            <div class="heart"></div>
+            <p>jangan ngambek lagi dong, saya gk bermaksud kok buat kamu marah, jadi maafin saya ya</p>
+        </div>
+    </div>
+
+    <script>
+        document.getElementById('revealButton').addEventListener('click', function() {
+            document.getElementById('heartContainer').classList.remove('hidden');
+        });
+    </script>
+</body>
+</html>
